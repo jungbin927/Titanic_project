@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "타이타닉 데이터셋 분석"
+version = "0.1.0"
+description = "타이타닉 데이터셋을 분석하여 잠재적 인사이트를 발견하는 프로젝트"
+authors = ["anjung135@naver.com"]
+readme = "README.md"
+homepage = "https://github.com/jungbin927/Titanic_project.git"
+repository = "https://github.com/jungbin927/Titanic_project.git"
+
+[tool.poetry.dependencies]
+python= 3.12.4
+Jupyter notebook= 7.2.2
+pandas=2.2.3
+numpy=2.1.3
+matplotlib = 3.9.2
+seaborn = 0.13.2
+scikit-learn = 1.5.2
